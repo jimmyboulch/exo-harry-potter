@@ -1,0 +1,181 @@
+body {
+    background-color: rgb(0 , 0, 0);
+    background-image: url(harry.jpg);
+    background-repeat:no-repeat;
+    background-size: 40%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 54px;
+    text-align: center;
+    margin-left: -8px ;
+    margin-right: -8px;
+    margin-top: -15px;
+    background: rgb(178, 0, 0);
+    padding: 19px;
+    height: 45px;    
+}
+
+ol {
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -40px;
+    background: rgb(178, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    padding: 19px;
+    height: 45px;
+  }
+
+
+
+
+ol li {
+    list-style: none;
+  }
+
+  ol li a {
+    font-size: 34px;
+    text-decoration: none;
+    background: rgb(122,32,57);
+    opacity: 0.4;
+    padding : 10px 150px;
+    color: white;
+  }
+
+  ol li a:hover {
+    background: black;
+  }
+
+  h2 {
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 30px;
+    padding: 19px;
+    background: rgb(53, 53, 79);
+    color:white;
+    text-align: center;
+    font-size: 34px;
+  }
+
+
+
+  hr {
+   
+    margin: 50px;
+    height: 1px;
+    background-color: black;
+  }
+
+ .section1  {
+    background-color: rgba(36, 35, 53, 0.4);
+     display:flex;
+      justify-content: center;
+      margin-top: -28px;
+      margin-left: -8px;
+      margin-right: -8px;
+    }
+
+
+
+
+ .articleSousSection1 {
+  border-radius: 10px;
+    opacity: 0.7;
+    background-color:rgb(212, 212, 212);
+    border:1px solid red;
+    padding: 100px 100px;
+      color:black;
+      text-align: justify;
+       margin:20px;
+       background-image: none;
+ }
+
+
+h3 {
+    text-align: center;
+    color:black;
+}
+.section2 {
+   
+     display:block;
+      justify-content:center;
+      margin-top: -28px;
+      margin-left: -8px;
+      margin-right: -8px;
+
+}
+
+
+
+ .articleSousSection2 {
+    border-radius: 10px;
+     background-color:rgb(212, 212, 212);
+    opacity: 0.7;
+       border:1px solid red;
+     padding: 100px 100px;
+    color:white;
+    margin:20px;
+ }
+
+ p {
+  text-align:justify;
+  color: black;
+  z-index: -1;
+ }
+
+ .harry {
+  position: relative; top: 20px;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+
+ }
+
+ #col {
+  column-count: 2;
+  orphans: 14;
+  
+ }
+
+ 
+
+ 
+ 
+  
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+ /*1er div : background image
+
+Floatleft pour l'image de l'article 2
+
+div de gauche : vertival align top
+
+flex : fit content sur les articles
+
+
+rgba(212, 212, 212, 0.4) pour les articles
+
+z-indx : -1 pour mettre l'image en dessous
+
+pour que les flexbox soient égales : flex: 1 1 0px; flex-basis: auto;*/
+
+
+
+
+
